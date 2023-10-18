@@ -1,0 +1,272 @@
+*{
+    font-family: 'Cormorant Garamond';
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    /* line-height: 20px; */
+}
+body{
+    font-family: 'Cormorant Garamond';
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    font-size: 12px;
+
+}
+nav {
+    font-size: 12px;
+  }
+ 
+  .nav-item .active{
+    color: #E4B44E !important;
+
+  }
+  .dropdown a{
+    color: #fff;
+
+  }
+.dropdown-menu
+{
+    background-color: transparent;
+}
+
+.dropdown-menu li a:hover
+{
+    background-color: #E4B44E;
+    color: #000002;
+}
+
+.body-dark{
+    background-color:#000002;
+}
+.yellow-color{
+    color: #E4B44E;
+}
+.contact-btn{
+    background-color: #fff;
+    color: #000002 !important;
+    padding: 0px 20px;
+}
+.contact-btn:hover{
+    background-color: #E4B44E;
+    color: #000002;
+    padding: 0px 20px;
+}
+
+/* footer */
+footer .first{
+    padding-left: 45px;
+}
+footer ul{
+    padding: 5rem 5rem;
+}
+footer ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+footer ul a{
+    color: #fff;
+    text-decoration: none;
+}
+footer ul a:hover{
+    color: #E4B44E;
+    text-decoration: none;
+}
+.border-danger{
+    color: #E4B44E;
+}
+.active{
+    color: #E4B44E;
+}
+.active:hover{
+    color: #fff;
+}
+
+.parent{
+    
+    position: relative;
+    padding: 7rem;
+    
+}
+.parent::before {
+    /* Create a pseudo-element for the background */
+    content: "";
+    /* Set the background image and ensure it covers the entire container */
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Set the opacity of the background */
+    opacity: 0.2; /* Adjust the opacity as needed */
+    /* Specify the width and height of the pseudo-element */
+    width: 100%;
+    height: 100%;
+    /* Position the pseudo-element behind the content */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+
+
+.content {
+    position: absolute;
+
+ }
+footer .row{
+    padding: 15px 10px;
+}
+
+/* index banner */
+.section1 {
+    background-image: url("../images/banner-image.png");
+    background-size: 400px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    /* background-size:inherit; */
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+  }
+.banner-style{
+    background-image: linear-gradient(rgba(0,0,0,0.66), rgba(0,0,0,0.88)), url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   position: relative;
+   
+}
+
+
+  .appointment{
+    text-decoration:none; padding: 10px 30px;background-color:#E4B44E; color:#000;
+  }
+  #action-buttons .appointment:hover{
+    text-decoration:none;
+    padding: 15px 35px;
+    background-color:transparent;
+    border: 1.5px solid #E4B44E;
+    color: #fff;
+  }
+  #action-buttons .callus{
+    text-decoration:none; padding: 10px 30px;background-color:transparent;border: 1.5px solid #E4B44E; color:#fff;
+  }
+  #action-buttons .callus:hover{
+    text-decoration:none;
+    padding: 15px 35px;
+    background-color:#E4B44E;
+    border: 1.5px solid #000;
+    color: #000;
+  }
+  .rounded--x{
+   padding: 10px;
+   width: 30px;
+   border-radius: 50%;
+   border: 2px solid #E4B44E;
+   display: flex;
+   justify-content: center;
+   height: 30px;
+  }
+  .rounded--x span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px
+}
+.ml-2{
+    padding-left: 10px;
+}
+
+  #tab-section-first:hover{
+    cursor: pointer;
+  }
+  #tab-section-second:hover{
+    cursor: pointer;
+  }
+  #second-tab-items{
+    display: none;
+  }
+  .item-styles{
+    background-color:#252E3A;
+    position: relative;
+    flex: 0 0 calc(33.33% - 30px);
+    /* margin: 10px; */
+    margin-top: 30px;
+    height: 15rem;
+    flex-grow: 0;
+  }
+  .item-styles::before{
+    content: "";
+    background-image: url('../images/icons/justice-icon.svg');
+    background-repeat: no-repeat;
+    width: 100px; /* Set width and height for your image */
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 42%;
+    margin-top: -30px;
+  }
+  #counts div{
+    flex-grow: 1;
+  }
+  .fr-image{
+    height: 60px;
+    width: 60px;
+  }
+ /* Media query for mobile devices */
+
+/* Styles for screens smaller than 768px (e.g., smartphones) */
+@media screen and (max-width: 767px) {
+    .parent{
+        margin-top: -3rem;
+    }
+    .content {
+        position: relative;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      
+    }
+    
+}
+
+
+ /* Styles for screens larger than 992px (e.g., desktops) */
+/* @media screen and (min-width: 992px) {
+    .parent{
+        margin-top: -3rem;
+    }
+    .content {
+        position: relative;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      
+    }
+} */
