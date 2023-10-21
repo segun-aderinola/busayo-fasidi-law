@@ -232,8 +232,8 @@
                     <span><img src="./assets/images/icons/Brand icon.svg" class="fr-image img-fluid" alt="justice icon"></span>
                     <span>
                         <h4>14+ Years of Experience</h4>
-                        <p>Dealing with Immigration Law, and 6+ years of <br />experience in family law matters. <br/>
-                            This blend of experience allows us to provide a unique <br/> and comprehensive approach to our clients <br/> irrespective of their legal needs.</p>
+                        <p>Dealing with Immigration Law, and 6+ years of <br />experience in family law matters. <br />
+                            This blend of experience allows us to provide a unique <br /> and comprehensive approach to our clients <br /> irrespective of their legal needs.</p>
                     </span>
                 </div>
                 <div class="d-flex mt-5">
@@ -269,5 +269,217 @@
     </div>
 
 </section>
+<section id="testimonial">
+    <div class="d-flex justify-content-center align-items-center text-center gap-4">
+        <div>
+            <h2 class="text-warning"> Testimonials </h2>
+            <h3> Hear From People That Have Benefited <br>From Our Unique Services.</h3>
+        </div>
+        <div>
+            <img src="./assets/images/still-life-with-scales-justice-removebg-preview 1.png" height="80" width="80" class="img-fluid" alt="justice" />
+        </div>
+    </div>
+    <div class="testimonial-cards">
+        <div class="" style="padding: 20px;">
+            <div class="slider slick-initialized slick-slider slick-dotted">
+                <button class="slick-prev slick-arrow slick-disabled" aria-label="Previous" type="button" aria-disabled="true">Previous</button>
 
+                <div class="slick-list draggable">
+                    <div class="slick-track d-flex gap-2">
+                        <div class="card slick-slide slick-current slick-active" tabindex="0" role="tabpanel" id="slick-slide30" aria-describedby="slick-slide-control30" data-slick-index="0" aria-hidden="false">
+                            <div style="background-color:#F1F8FF;padding:15px 10px">
+                                <img src="./assets/images/icons/double-quote.svg" class="img-fluid" alt="">
+
+                                <div class="card-body">
+
+                                    <p class="card-text" style="color: #989898;">
+                                        Ms. Busayo went above and beyond for my case. She made a very mentally draining process smooth for me. She explained every process and kept me updated till I got my GC. Highly recommend her for immigration process especially VAWA. I can’t thank you enough!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-4 d-flex gap-2" style="padding: 0px 10px">
+                                <span>
+                                    <img src="./assets/images/icons/Avatar.svg" style="height: 40px;width: 40px;" class="img-fluid" alt="img">
+                                </span>
+                                <span>
+                                    <p style="text-transform: uppercase;">Natasha Williams</p>
+                                    <p class="primary-color">Medical Doctor</p>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="card slick-slide slick-current slick-active" tabindex="0" role="tabpanel" id="slick-slide30" aria-describedby="slick-slide-control30" data-slick-index="0" aria-hidden="false">
+                        <div class="mt-4 d-flex gap-2" style="padding: 0px 10px">
+                                <span>
+                                    <img src="./assets/images/icons/Avatar.svg" style="height: 40px;width: 40px;" class="img-fluid" alt="img">
+                                </span>
+                                <span>
+                                    <p style="text-transform: uppercase;">Natasha Williams</p>
+                                    <p class="primary-color">Medical Doctor</p>
+                                </span>
+                            </div>
+                            <div style="background-color:#F1F8FF;padding:15px 10px">
+                                <img src="./assets/images/icons/double-quote.svg" class="img-fluid" alt="">
+
+                                <div class="card-body">
+
+                                    <p class="card-text" style="color: #989898;">
+                                        Ms. Busayo went above and beyond for my case. She made a very mentally draining process smooth for me. She explained every process and kept me updated till I got my GC. Highly recommend her for immigration process especially VAWA. I can’t thank you enough!
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card slick-slide slick-current slick-active" tabindex="0" role="tabpanel" id="slick-slide30" aria-describedby="slick-slide-control30" data-slick-index="0" aria-hidden="false">
+                            <div style="background-color:#F1F8FF;padding:15px 10px">
+                                <img src="./assets/images/icons/double-quote.svg" class="img-fluid" alt="">
+
+                                <div class="card-body">
+
+                                    <p class="card-text" style="color: #989898;">
+                                        Ms. Busayo went above and beyond for my case. She made a very mentally draining process smooth for me. She explained every process and kept me updated till I got my GC. Highly recommend her for immigration process especially VAWA. I can’t thank you enough!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-4 d-flex gap-2" style="padding: 0px 10px">
+                                <span>
+                                    <img src="./assets/images/icons/Avatar.svg" style="height: 40px;width: 40px;" class="img-fluid" alt="img">
+                                </span>
+                                <span>
+                                    <p style="text-transform: uppercase;">Natasha Williams</p>
+                                    <p class="primary-color">Medical Doctor</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="slick-next slick-arrow" aria-label="Next" type="button" aria-disabled="false">Next</button>
+                <ul class="slick-dots" role="tablist">
+                    <li class="slick-active" role="presentation">
+                        <button type="button" role="tab" id="slick-slide-control30" aria-controls="slick-slide30" aria-label="1 of 3" tabindex="0" aria-selected="true">1</button>
+                    </li>
+                    <li role="presentation" class="">
+                        <button type="button" role="tab" id="slick-slide-control31" aria-controls="slick-slide31" aria-label="2 of 3" tabindex="-1">2</button>
+                    </li>
+                    <li role="presentation" class="">
+                        <button type="button" role="tab" id="slick-slide-control32" aria-controls="slick-slide32" aria-label="3 of 3" tabindex="-1">3</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class="row p-5">
+        <div class="col-md-4">
+
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <img src="./assets/images/still-life-with-scales-justice-removebg-preview 1.png" height="200" width="200" class="img-fluid" alt="" />
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="p-4">
+                <h3>Let An Experienced Houston, Texas Immigration Attorney Help You</h3>
+
+                If you're seeking expert assistance with U.S. immigration law in Texas, anywhere in the United States, or around the world, we invite you to connect with our esteemed law office for a consultation. We offer free 15-minute phone consultations and will be glad to address any questions you may have.
+            </div>
+            <div class="gap-3 mt-4">
+                <div class="row mt-2">
+                    <div class="col-md-6 d-flex gap-3">
+                        <span class="fa fa-check text-success"></span>
+                        <span> Comprehensive review of your case to determine the most effective strategy.</span>
+                    </div>
+
+                    <div class="col-md-6 d-flex gap-3">
+                        <span class="fa fa-check text-success"></span>
+                        <span> Thorough preparation for your forthcoming interview.</span>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-6 d-flex gap-3">
+                        <span class="fa fa-check text-success"></span>
+                        <span> Unwavering moral support and guidance to alleviate stress during this challenging process.</span>
+                    </div>
+
+                    <div class="col-md-6 d-flex gap-3">
+                        <span class="fa fa-check text-success"></span>
+                        <span> Assistance in collecting all necessary documentation for your case. </span>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-sm-6 d-flex gap-3">
+                        <span class="fa fa-check text-success"></span>
+                        <span> Diligent filing of your application to ensure accuracy and completeness.</span>
+                    </div>
+                    <div class="col-sm-6 d-flex gap-3">
+                        <span class="fa fa-check text-success"></span>
+                        <span> We offer free 15-minute phone consultations and will be glad to address any questions you may have.</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="d-flex flex-wrap gap-4 mt-5" id="action-buttons-2">
+                <div class="">
+                    <a class="appointment" href="#">Schedule An Appointment</a>
+                </div>
+                <div class="">
+                    <a href="#" class="callus" style="color:black"><span class="fa fa-phone"></span> Call us Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="body-dark text-white" id="bottom-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 p-5">
+                <h3> You don’t need to navigate this intricate journey alone. Reach out to us today and allow us to guide you </h3>
+                <div class="mt-5">
+                    <a class="appointment" href="#">Schedule An Appointment</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./assets/images/1686551047.png" height="400" width="400" alt="card" class="img-fluid" />
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="banner-style">
+    <div class="" id="banner-inner">
+        <form class="form-inline text-white bg-dark p-5">
+            <div class="row">
+                <div class="col-sm-6 mt-4">
+                    <label for="Full name">Full Name*</label>
+                    <input type="text" class="form-control" />
+                </div>
+                <div class="col-sm-6 mt-4">
+                    <label for="Full name">Email Address*</label>
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 mt-4">
+                    <label for="Subject">Subject*</label>
+                    <input type="text" class="form-control" />
+                </div>
+                <div class="col-sm-6 mt-4">
+                    <label for="Phone Number">Phone Number*</label>
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 mt-4">
+                    <label for="Your Message">Your Message*</label>
+                    <input type="text" class="form-control" />
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center mt-4">
+                <button class="appointment">Send A Message</button>
+            </div>
+        </form>
+    </div>
+</section>
 <?php include('./footer.php'); ?>

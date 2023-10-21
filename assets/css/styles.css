@@ -162,6 +162,13 @@ footer .row{
   #action-buttons .callus{
     text-decoration:none; padding: 10px 30px;background-color:transparent;border: 1.5px solid #E4B44E; color:#fff;
   }
+  #action-buttons-2 .callus{
+    text-decoration:none;
+    padding: 10px 30px;
+    background-color:#fff;
+    border: 1.5px solid #E4B44E;
+    color:#0000;
+  }
   #action-buttons .callus:hover{
     text-decoration:none;
     padding: 15px 35px;
@@ -231,6 +238,100 @@ footer .row{
     height: 60px;
     width: 60px;
   }
+  #bottom-section {
+    background-image: linear-gradient(rgba(0,0,0,0.66), rgba(0,0,0,0.88)), url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:auto;
+    width: 100%;
+    height: 100%;
+    padding: 8rem 0rem;
+    margin-bottom: 3rem;
+  }
+  .form-control{
+    margin-top: 10px;
+    border: none !important;
+    border-bottom: 1px solid #fff !important;
+    background: transparent !important;
+  }
+  .form-control:focus{
+    color: #fff;
+    font-size: 14px;
+    border: none !important;
+    border-bottom: 1px solid #fff !important;
+  }
+  #banner-inner{
+    padding: 8rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 70%;
+    margin: auto;
+  }
+  #testimonial{
+    background-color: #FFFBF2;
+    padding: 3rem 0rem;
+  }
+  .slick-track{
+    opacity: 1;
+    width: 720px;
+    transform: translate3d(0px, 0px, 0px);
+  }
+  #slick-slide30{
+    /* padding: 20px 20px; */
+    width: 225px;
+  }
+  .osSwitch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 15.3px
+  }
+
+  .osSwitch input {
+    opacity: 0;
+    width: 0;
+    height: 0
+  }
+
+  .osSlider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 34px;
+    background-color: #93a0b5;
+    transition: 0.4s
+  }
+
+  .osSlider:before {
+    position: absolute;
+    content: '';
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 1px;
+    border-radius: 50%;
+    background-color: white;
+    transition: 0.4s
+  }
+
+  input:checked+.sliderGreen {
+    background-color: #04d289
+  }
+
+  input:checked+.sliderRed {
+    background-color: #ff3b30
+  }
+
+  input:not(:checked)+.defaultGreen {
+    background-color: #04d289
+  }
+
+  input:checked+.osSlider:before {
+    transform: translateX(17px)
+  }
  /* Media query for mobile devices */
 
 /* Styles for screens smaller than 768px (e.g., smartphones) */
@@ -249,7 +350,24 @@ footer .row{
         flex-wrap: wrap;
       
     }
-    
+    .appointment {
+        text-decoration: none;
+        padding: 10px 11px;
+        background-color: #E4B44E;
+        color: #000;
+      }
+
+      .section1 {
+        background-image: none;
+      }
+      #bottom-section {
+        padding-top: 0rem;
+      }
+      #banner-inner{
+        padding: 7rem 2rem;
+        width: 100%;
+        margin: auto;
+      }
 }
 
 
