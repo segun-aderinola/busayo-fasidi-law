@@ -332,6 +332,8 @@ footer .row{
   input:checked+.osSlider:before {
     transform: translateX(17px)
   }
+
+
  /* Media query for mobile devices */
 
 /* Styles for screens smaller than 768px (e.g., smartphones) */

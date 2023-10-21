@@ -4,7 +4,7 @@
 <main class="">
     <div class="section1 mt-0">
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-7 animate__animated animate__fadeInUp">
                 <h1 style="font-weight: 700;color:#E4B44E;">Olubusayo Fasidi PC </h1>
 
                 <h1 class="mt-3" style="color: #fff;">
@@ -269,7 +269,7 @@
     </div>
 
 </section>
-<section id="testimonial">
+<section id="testimonial" class="">
     <div class="d-flex justify-content-center align-items-center text-center gap-4">
         <div>
             <h2 class="text-warning"> Testimonials </h2>
