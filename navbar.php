@@ -1,9 +1,9 @@
 <!-- navbar -->
-<div class="banner-style">
+<header class="banner-style">
   <nav class="navbar navbar-expand-lg bg-transparent">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="./assets/images/logo.png" alt="logo" class="img-fluid" height="150px" width="150px" />
+        <img src="./assets/images/logo.png" alt="logo" class="img-fluid" height="100px" width="100px" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -15,7 +15,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="about.php">About us</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -29,11 +29,7 @@
           </ul>
         </div>
         <div class="last-button gap-3" style="flex-grow: 0;margin-left:auto">
-          <ul class="navbar-nav">
-            <li class="nav-item contact-btn">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-          </ul>
+            <a class="nav-link contact-btn" href="#contactnow">Contact Us</a>
         </div>
       </div>
 

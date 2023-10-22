@@ -43,15 +43,99 @@
     </div>
   </div>
 </footer>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<!-- <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script> -->
-<script type="text/javascript" src="./assets/js/jquery.js"></script>
 
-<script type="text/javascript" src="./assets/css/slick/slick/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="./assets/js/slick.min.js"></script>
-<script type="text/javascript" src="./assets/js/script.js"></script>
-<script type="text/javascript" src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.js"></script>
+  <script src="./slick/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<!-- <script type="text/javascript" src="./assets/js/script.js"></script> -->
+<script type="text/javascript">
+AOS.init({
+    duration: 1500,
+    once: true,
+  });
 
+  $(function() {
+    $('#tab-section-first').click(function() {
+       $('#first-tab-items').css('display', 'block');
+       $('#second-tab-items').css('display', 'none');
+       $('#tab-section-second').removeClass('border-warning text-warning').addClass('border-white text-white');
+       $(this).removeClass('border-white text-white').addClass('border-warning text-warning');
+    });
+    $('#tab-section-second').click(function() {
+        $('#first-tab-items').css('display', 'none');
+        $('#second-tab-items').css('display', 'block');
+        $('#tab-section-first').removeClass('border-warning text-warning').addClass('border-white text-white');
+       $(this).removeClass('border-white text-white').addClass('border-warning text-warning');
+     });
+
+
+
+    let dat = new Date();
+    $("#date").html(dat.getFullYear());
+    
+    $(".slider").slick({
+
+      dots: true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+
+      ]
+
+    });
+
+    
+  });
+// Disable inspect element
+// $(document).bind("contextmenu",function(e) {
+//     e.preventDefault();
+//   });
+//   $(document).keydown(function(e){
+//     if(e.which === 123){
+//       return false;
+//   }
+//   });
+</script>
+<script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "LegalService",
+            "name": "Your Immigration Solutions",
+            "description": "Experienced immigration lawyers in United States providing comprehensive immigration services for families and businesses.",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "[City]",
+                "addressRegion": "[State]",
+                "postalCode": "[ZIP Code]",
+                "streetAddress": "[Street Address]"
+            }
+            
+        }
+    </script>
 </body>
 </html>
