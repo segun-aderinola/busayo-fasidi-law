@@ -2,9 +2,9 @@
 <?php include('./navbar.php'); ?>
 <!-- main screen here -->
 <main class="">
-    <div class="section1 mt-0">
+    <div class="section1">
         <div class="row">
-            <div class="col-md-7" data-aos="fade-right">
+            <div class="col-md-6 aaa" data-aos="fade-right">
                 <h1 style="font-weight: 700;color:#E4B44E;">Olubusayo Fasidi PC </h1>
 
                 <h1 class="mt-3" style="color: #fff;">
@@ -43,7 +43,7 @@
 
                 </div>
             </div>
-
+            <div class="col-md-6 ddd"></div>
         </div>
 
     </div>
@@ -137,87 +137,153 @@
         <div id="first-tab-items" class="mt-5">
             <div class="flex-container" data-aos="fade-up-right">
                 <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> Adjustment of Status </strong></h6>
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-                </div>
-                <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> Visa Extensions or Renewals </strong></h6>
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-                </div>
-                <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> Citizenship Application and Naturalization </strong></h6>
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-                </div>
-                <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> Student Visas </strong></h6>
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-                </div>
-                <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> Non-Immigrant Visas </strong></h6>
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-                </div>
-                <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> Family-Based Visas </strong></h6>
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-                </div>
-                <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> Consular Processing </strong></h6>
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-                </div>
+                    <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
 
+                    <div class="item-style-div">
+                        <h6><strong> Adjustment of Status </strong></h6>
+                        Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    </div>
 
+                </div>
+                <div class="text-center item-styles p-4">
+                    <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                    <div class="item-style-div">
+                        <h6 class=""><strong> Visa Extensions or Renewals </strong></h6>
+                        Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    </div>
+                </div>
+                <div class="text-center item-styles p-4">
+                <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                <div class="item-style-div">
+
+                    <h6 class=""><strong> Citizenship Application and Naturalization </strong></h6>
+                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                </div>
+                </div>
+                <div class="text-center item-styles p-4">
+                    <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+
+                    <div class="item-style-div">
+                        <h6 class=""><strong> Student Visas </strong></h6>
+                        Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    </div>
+                </div>
+                <div class="text-center item-styles p-4">
+                    <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                    <div class="item-style-div">
+                        <h6 class=""><strong> Non-Immigrant Visas </strong></h6>
+                        Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    </div>
+                </div>
+                <div class="text-center item-styles p-4">
+                    <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                    <div class="item-style-div">
+                        <h6 class=""><strong> Family-Based Visas </strong></h6>
+                        Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    </div>
+                </div>
+                <div class="text-center item-styles p-4">
+                    <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+
+                    <div class="item-style-div">
+                        <h6 class=""><strong> Consular Processing </strong></h6>
+                        Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    </div>
+                </div>
             </div>
 
         </div>
         <div id="second-tab-items" class="mt-5">
             <div class="flex-container" data-aos="fade-left">
                 <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> Immigration Court Representation </strong></h6>
+                <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                <div class="item-style-div">
+
+                    <h6 class=""><strong> Immigration Court Representation </strong></h6>
                     Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </div>
-                <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> Board of Immigration Appeals (BIA) </strong></h6>
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </div>
                 <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> Federal Court Appeal </strong></h6>
+                <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                <div class="item-style-div">
+
+                    <h6 class=""><strong> Board of Immigration Appeals (BIA) </strong></h6>
                     Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </div>
+            </div>
                 <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> Motion to Reopen or Reconcile </strong></h6>
+                <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                <div class="item-style-div">
+
+                    <h6 class=""><strong> Federal Court Appeal </strong></h6>
                     Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </div>
-                <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> Petitions to Review </strong></h6>
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </div>
                 <div class="text-center item-styles p-4">
+                <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                <div class="item-style-div">
+                    
+                    <h6 class=""><strong> Motion to Reopen or Reconcile </strong></h6>
+                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                </div>
+            </div>
+                <div class="text-center item-styles p-4">
+                <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                <div class="item-style-div">
+
+                    <h6 class=""><strong> Petitions to Review </strong></h6>
+                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                </div>
+                </div>
+                <div class="text-center item-styles p-4">
+                <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                <div class="item-style-div">
+
                     <h6 class="pt-4"><strong> Waivers </strong></h6>
                     Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </div>
-                <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> Response to request for evidence or intent to deny </strong></h6>
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </div>
                 <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> VAWA (Violence Against Women Act) </strong></h6>
+                <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                <div class="item-style-div">
+                    <h6 class=""><strong> Response to request for evidence or intent to deny </strong></h6>
                     Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </div>
-                <div class="text-center item-styles p-4">
-                    <h6 class="pt-4"><strong> Asylum </strong></h6>
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </div>
                 <div class="text-center item-styles p-4">
+                <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                <div class="item-style-div">
+                    <h6 class=""><strong> VAWA (Violence Against Women Act) </strong></h6>
+                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                </div>
+                </div>
+                <div class="text-center item-styles p-4">
+                <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                <div class="item-style-div">
+                    <h6 class=""><strong> Asylum </strong></h6>
+                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                </div>
+                </div>
+                <div class="text-center item-styles p-4">
+                <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                <div class="item-style-div">
                     <h6 class="pt-4"><strong> Deportation Proceedings </strong></h6>
                     Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </div>
+                </div>
                 <div class="text-center item-styles p-4">
+                <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                <div class="item-style-div">
                     <h6 class="pt-4"><strong> Appeals </strong></h6>
                     Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </div>
+                </div>
                 <div class="text-center item-styles p-4">
+                <img src="./assets/images/icons/justice-icon.svg" class="img-fluid" alt="justice icon" />
+                <div class="item-style-div">
                     <h6 class="pt-4"><strong> Motion to reopen or Motion to reconsider </strong></h6>
                     Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                </div>
                 </div>
             </div>
         </div>
@@ -300,7 +366,7 @@
             <img src="./assets/images/still-life-with-scales-justice-removebg-preview 1.png" height="80" width="80" class="img-fluid" alt="justice" />
         </div>
     </div>
-   
+
     <div class="regular slider">
         <div class="card slick-slide slick-current slick-active" tabindex="0" role="tabpanel" id="" aria-describedby="slick-slide-control30" data-slick-index="0" aria-hidden="false">
             <div style="background-color:#F1F8FF;padding:15px 10px">
@@ -519,7 +585,7 @@
 
             </div>
             <div class="d-flex justify-content-center align-items-center mt-4">
-                <button class="appointment">Send A Message</button>
+                <button class="appointment2">Send A Message</button>
             </div>
         </form>
     </div>

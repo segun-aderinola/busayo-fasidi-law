@@ -5,14 +5,14 @@
       <a class="navbar-brand" href="#">
         <img src="./assets/images/logo.png" alt="logo" class="img-fluid" height="100px" width="100px" />
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #fff;">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse flex justify-content-center align-items-center" id="navbarNavDropdown">
         <div>
           <ul class="navbar-nav" id="three-nav-items">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.php">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link" href="about.php">About us</a>
