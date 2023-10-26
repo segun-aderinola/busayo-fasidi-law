@@ -8,10 +8,9 @@ html, body{
     outline: none;
     font-size: 13px;
     overflow-x: hidden;
-    font-family: Outfit;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 300;
-    line-height: 36px; /* 200% */
+    line-height: 13px; /* 200% */
 }
 nav {
     font-size: 12px;
@@ -135,32 +134,43 @@ footer .row{
   }
   .appointment2{
     text-decoration:none;
-    padding: 0px 15px;
+    padding: 10px 15px;
     background-color:#E4B44E;
     color:#000;
     border: none;
   }
 
   #action-buttons .appointment:hover{
-    text-decoration:none;
-    padding: 15px 35px;
+   
     background-color:transparent;
     border: 1.5px solid #E4B44E;
     color: #fff;
   }
   #action-buttons .callus{
-    text-decoration:none; padding: 10px 30px;background-color:transparent;border: 1.5px solid #E4B44E; color:#fff;
+    text-decoration:none;
+    padding: 10px 30px;
+    background-color:transparent;
+    border: 1.5px solid #E4B44E;
+    color:#fff;
   }
+  #action-button-2{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin-top: 20px;
+  }
+
   #action-buttons-2 .callus{
     text-decoration:none;
     padding: 10px 30px;
     background-color:#fff;
     border: 1.5px solid #E4B44E;
-    color:#0000;
+    /* color:#0000 !important; */
   }
+
   #action-buttons .callus:hover{
     text-decoration:none;
-    padding: 15px 35px;
+    
     background-color:#E4B44E;
     border: 1.5px solid #000;
     color: #000;
@@ -364,6 +374,24 @@ footer .row{
       }
       #navbarNavDropdown{
         padding-left: 0px;
+    }
+    /* br{
+      display: none;
+    } */
+    .p-4{
+      padding: 0px !important
+    }
+    .section1 .aaa {
+      padding: 20px 36px;
+    }
+    .col-md-8 .mt-5{
+      margin-top: 10px !important;
+    }
+    /* .p-5{
+      padding: 20px !important;
+    } */
+    .mt-5{
+      margin-top: 20px !important;
     }
 }
 

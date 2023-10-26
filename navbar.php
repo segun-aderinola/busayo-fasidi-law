@@ -22,8 +22,8 @@
                 Services
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#" style="color: #fff;">Immigration & Visa Services</a></li>
-                <li><a class="dropdown-item" href="#" style="color: #fff;">Legal Action & Appeal Services</a></li>
+                <li><a class="dropdown-item" href="./immigration.php" style="color: #fff;">Immigration & Visa Services</a></li>
+                <li><a class="dropdown-item" href="./legal-appeal.php" style="color: #fff;">Legal Action & Appeal Services</a></li>
               </ul>
             </li>
           </ul>

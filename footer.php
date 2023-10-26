@@ -47,8 +47,8 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-  <script src="./slick/slick/slick.js" type="text/javascript" charset="utf-8"></script>
-<!-- <script type="text/javascript" src="./assets/js/script.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script type="text/javascript">
 AOS.init({
     duration: 1500,
@@ -121,21 +121,6 @@ AOS.init({
 //   }
 //   });
 </script>
-<script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "LegalService",
-            "name": "Your Immigration Solutions",
-            "description": "Experienced immigration lawyers in United States providing comprehensive immigration services for families and businesses.",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "[City]",
-                "addressRegion": "[State]",
-                "postalCode": "[ZIP Code]",
-                "streetAddress": "[Street Address]"
-            }
-            
-        }
-    </script>
+
 </body>
 </html>
