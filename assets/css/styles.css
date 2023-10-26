@@ -46,12 +46,12 @@ nav {
 .contact-btn{
     background-color: #fff;
     color: #000002 !important;
-    padding: 0px 20px;
+    padding: 10px 20px;
 }
 .contact-btn:hover{
     background-color: #E4B44E;
     color: #000002;
-    padding: 0px 20px;
+    padding: 10px 20px;
 }
 
 /* footer */
