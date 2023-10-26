@@ -414,6 +414,28 @@ footer .row{
   .callus{
     margin-top: 30px !important;
   }
+  #rrr-clerk{
+    display: none;;
+  }
+  #clerk{
+    display: none;;
+  }
+  #visa-passport{
+    display: none;;
+  }
+  #idcard{
+    display: none;;
+  }
+  #interview{
+    display: none;;
+  }
+  #smile{
+    display: none;
+  }
+  #family{
+    display: none;
+  }
+
 }
 
 
