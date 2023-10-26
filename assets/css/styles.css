@@ -39,6 +39,8 @@ nav {
 }
 .body-dark{
     background-color:#000002;
+    height: max-content;
+    padding-bottom: 20px;
 }
 .yellow-color{
     color: #E4B44E;
@@ -235,11 +237,15 @@ footer .row{
     display: flex;
     padding: 10px 24px 32px 24px;
     align-items: center;
+    border-radius: 10px;
     /* align-self: stretch; */
   }
   .item-styles img{
    transform: translateY(-45px);
    
+  }
+  h5{
+    margin-bottom: 15px;
   }
   .item-style-div{
     
@@ -286,10 +292,7 @@ footer .row{
     border-bottom: 1px solid #fff !important;
   }
   #banner-inner{
-    padding: 8rem;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    padding: 3rem;
     width: 70%;
     margin: auto;
   }
