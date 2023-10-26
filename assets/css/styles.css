@@ -35,7 +35,7 @@ nav {
     color: #000002;
 }
 #navbarNavDropdown{
-    /* padding-left: 280px; */
+    padding-left: 300px;
 }
 .body-dark{
     background-color:#000002;
@@ -230,7 +230,7 @@ footer .row{
     flex-direction: column;
     text-align: center;
     margin-top: 30px;
-    height: 30%;
+    height: 13rem;
     flex-grow: 0;
     width: 80%;
     display: flex;
