@@ -113,6 +113,16 @@ footer .row{
    /* position: relative; */
    
 }
+.banner-style2{
+  background-image: linear-gradient(rgba(0,0,0,0.66), rgba(0,0,0,0.88)), url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: absolute; */
+  width: 100%;
+  min-height: max-content;
+ /* position: relative; */
+ 
+}
 .section1 .aaa{
  padding: 50px 0px;
 }
@@ -220,7 +230,7 @@ footer .row{
     flex-direction: column;
     text-align: center;
     margin-top: 30px;
-    height: max-content;
+    height: 30%;
     flex-grow: 0;
     width: 80%;
     display: flex;
