@@ -158,6 +158,8 @@ footer .row{
     flex-direction: row;
     gap: 4px;
     margin-top: 20px;
+ padding: 50px;
+
   }
 
   #action-buttons-2 .callus{
