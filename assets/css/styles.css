@@ -109,8 +109,7 @@ footer .row{
     background-size: cover;
     /* position: absolute; */
     width: 100%;
-    min-height: 85vh;
-   /* position: relative; */
+    height: max-content;
    
 }
 .banner-style2{
@@ -129,7 +128,7 @@ footer .row{
 
 .section1 .ddd{
   background: url("../images/banner-image.png") no-repeat;
-  min-height: 85vh;
+  
   background-size: contain;
   background-position: bottom right;
 }
