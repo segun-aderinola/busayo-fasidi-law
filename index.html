@@ -613,7 +613,7 @@ Even with a denial from the Board of Immigration Appeals, our attorneys can take
 
 <section id="contactnow" class="banner-style2">
     <div class="" id="banner-inner" data-aos="fade-up">
-        <form class="form-inline text-white bg-dark p-5">
+        <form class="form-inline text-white bg-dark p-5" id="myForm">
             <div class="row">
                 <div class="col-sm-6 mt-4">
                     <label for="Full Name">Full Name*</label>
@@ -720,6 +720,26 @@ Even with a denial from the Board of Immigration Appeals, our attorneys can take
        });
   
   
+    //    email sender
+    $('#myForm').on('submit', function(event) {
+    event.preventDefault(); // prevent reload
+    
+    var formData = new FormData(this);
+    formData.append('service_id', 'service_lexhda8');
+    formData.append('template_id', 'template_53ps83k');
+    formData.append('user_id', 'nSo1sQFrKQOiFm1Y1');
+ 
+    $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
+        type: 'POST',
+        data: formData,
+        contentType: false, // auto-detection
+        processData: false // no need to parse formData to string
+    }).done(function() {
+        alert('Your mail is sent!');
+    }).fail(function(error) {
+        alert('Oops... ' + JSON.stringify(error));
+    });
+});
   
       let dat = new Date();
       $("#date").html(dat.getFullYear());
