@@ -8,9 +8,9 @@
 
   <meta property="og:url" content="https://busayofasidi.com">
   <meta property="og:type" content="portfolio">
-  <meta property="og:title" content="Experienced Immigration Lawyer in the United States">
-  <meta property="og:description" content="Looking for reliable immigration lawyers in United States? Our experienced attorneys offer comprehensive immigration services for families and businesses. Contact us for a consultation.">
-  <meta property="og:image" content="https://busayofasidilaw.com/new/wp-content/uploads/2023/10/Screenshot-2023-10-24-152420.png">
+  <meta property="og:title" content="Immigration Lawyer">
+  <meta property="og:description" content="Seeking reliable immigration lawyers in the US? Our skilled attorneys provide comprehensive immigration services">
+  <meta property="og:image" content="https://res.cloudinary.com/deh3s35go/image/upload/v1698310164/Screenshot_2023-10-24_152420_wmfh5e.png" />
 
   <title>Olubusayo Fasidi PC | Houston, Texas Immigration Law Firm</title>
   <link rel="icon" type="image/x-icon" href="./assets/images/icons/favicon.ico">
