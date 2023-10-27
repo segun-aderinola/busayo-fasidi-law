@@ -636,7 +636,7 @@ Even with a denial from the Board of Immigration Appeals, our attorneys can take
 
             </div>
             <div class="d-flex justify-content-center align-items-center mt-4">
-                <button class="appointment2">Send A Message</button>
+                <button class="appointment2" id="send-button">Send A Message</button>
             </div>
         </form>
     </div>
@@ -728,9 +728,13 @@ Even with a denial from the Board of Immigration Appeals, our attorneys can take
         data: formData,
         contentType: false, // auto-detection
         processData: false // no need to parse formData to string
+    }).progress(function(){
+        $("#send-button").html('Sending...')
     }).done(function() {
+        $("#send-button").html('Sent')
         alert('Your mail is sent!');
     }).fail(function(error) {
+        $("#send-button").html('Send A Message')
         alert('Oops... ' + JSON.stringify(error));
     });
 });
