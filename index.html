@@ -617,27 +617,17 @@ Even with a denial from the Board of Immigration Appeals, our attorneys can take
             <div class="row">
                 <div class="col-sm-6 mt-4">
                     <label for="Full Name">Full Name*</label>
-                    <input type="text" class="form-control" />
+                    <input type="text" name="fullname" class="form-control" required/>
                 </div>
                 <div class="col-sm-6 mt-4">
                     <label for="Email Address">Email Address*</label>
-                    <input type="text" class="form-control" />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 mt-4">
-                    <label for="Subject">Subject*</label>
-                    <input type="text" class="form-control" />
-                </div>
-                <div class="col-sm-6 mt-4">
-                    <label for="Phone Number">Phone Number*</label>
-                    <input type="text" class="form-control" />
+                    <input type="text" name="email" class="form-control" required/>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12 mt-4">
                     <label for="Your Message">Your Message*</label>
-                    <input type="text" class="form-control" />
+                    <input type="text" name="message" class="form-control" required/>
                 </div>
 
             </div>
@@ -726,7 +716,7 @@ Even with a denial from the Board of Immigration Appeals, our attorneys can take
     
     var formData = new FormData(this);
     formData.append('service_id', 'service_lexhda8');
-    formData.append('template_id', 'template_53ps83k');
+    formData.append('template_id', 'template_nurdbyx');
     formData.append('user_id', 'nSo1sQFrKQOiFm1Y1');
  
     $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
