@@ -247,6 +247,9 @@ footer .row{
    transform: translateY(-45px);
    
   }
+  #three-nav-items{
+    font-size: 14px;
+  }
   h5{
     margin-bottom: 15px;
   }
