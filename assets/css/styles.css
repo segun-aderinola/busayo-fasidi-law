@@ -30,6 +30,10 @@ nav {
     background-color: transparent;
 }
 
+.dropdown-menu li a
+{
+    padding: 10px 10px;
+}
 .dropdown-menu li a:hover
 {
     background-color: #E4B44E;
@@ -250,17 +254,7 @@ footer .row{
     
     transform: translateY(-35px);
    }
-  /* .item-styles::before{
-    content: "";
-    background-image: url('../images/icons/justice-icon.svg');
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 42%;
-    margin-top: -30px;
-  } */
+
   #counts div{
     flex-grow: 1;
   }
@@ -340,6 +334,20 @@ footer .row{
 }
 .our-team a{
   color: #E4B44E;
+}
+.parastyle{
+  line-height: 25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style:normal;
+  font-size: 12px;
+  font-weight: 300 !important;
+}
+.get-started{
+  line-height: 25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style:normal;
+  font-size: 16px;
+  font-weight: 300 !important;
 }
  /* Media query for mobile devices */
 
@@ -435,7 +443,10 @@ footer .row{
   #family{
     display: none;
   }
-
+  .contact-btn{
+   width: 40%;
+   text-align: center;
+}
 }
 
 
