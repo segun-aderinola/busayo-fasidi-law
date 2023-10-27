@@ -234,7 +234,7 @@ footer .row{
     flex-direction: column;
     text-align: center;
     margin-top: 30px;
-    height: 13rem;
+    height: 15rem;
     flex-grow: 0;
     width: 80%;
     display: flex;
@@ -339,6 +339,18 @@ footer .row{
   line-height: 25px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style:normal;
+  font-size: 12px;
+  font-weight: 300 !important;
+}
+#first-tab-items{
+  
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 300 !important;
+}
+#second-tab-items{
+  
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 12px;
   font-weight: 300 !important;
 }
